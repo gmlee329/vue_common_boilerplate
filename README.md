@@ -36,7 +36,7 @@ $ npm run serve
 - vue.config.js : vue 전역 설정 관리
 
 
-## ● application architecture
+## ● Application architecture
 1. 중간 규모의 vue 애플리케이션에 적합한 기본 구조로 구성
 2. 애플리케이션 규모, 도메인 특성에 맞춰 구조 변경 필요
 3. 더 복잡하고 큰 규모의 애플리케이션일 경우 common 디렉토리로 공통 기능 묶어서 관리 및 도메인별 폴더 생성하여 구조 관리 필요
