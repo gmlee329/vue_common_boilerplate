@@ -36,6 +36,7 @@ import {
   getSampleApi,
   getTestSampleApi,
 } from '@/services/api';
+import { mapState, mapMutations } from 'vuex';
 
 export default {
   name: 'SampleComponent',
@@ -61,7 +62,7 @@ export default {
         this.setSampleData(data);
       }
       else {
-        data = getTestSampleApi().resultData;
+        data = getTestSampleApi(1).resultData;
         this.setSampleData(data);
         let _this = this;
         getSampleApi(1)
@@ -72,6 +73,7 @@ export default {
           .catch((error) => {
             console.log(error);
           });
+        this.setStoredSampleData(data);
       }
     },
     setSampleData(data) {
@@ -82,8 +84,16 @@ export default {
       this.createDt = data.createDt;
       this.updateId = data.updateId;
       this.updateDt = data.updateDt;
-    }
+    },
+    ...mapMutations({
+      setStoredSampleData: 'setStoredSampleData',
+    }),
   },
+  computed: {
+    ...mapState([
+      'storedSample'
+    ])
+  }
 };
 </script>
 
