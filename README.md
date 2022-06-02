@@ -16,6 +16,10 @@ $ npm install
 $ npm run serve
 ```
 
+## ● Environment
+- vue 2
+- vue-cli 3
+
 ## ● Structure
 ![image](./src/assets/images/structure.png)
 
