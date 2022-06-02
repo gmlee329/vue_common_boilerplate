@@ -46,6 +46,6 @@ $ npm run serve
 3. 더 복잡하고 큰 규모의 애플리케이션일 경우 common 디렉토리로 공통 기능 묶어서 관리 및 도메인별 폴더 생성하여 구조 관리 필요
 
 ## ● Etc
-1. 해당 repo의 sample 코드는 유수영님의 [Standard Spring Boot Structure](https://github.com/SuyeongYoo/fw.boot) 와 연동 테스트 할 수 있도록 구현하였습니다.
+1. 해당 repo의 sample 코드는 [유수영](https://github.com/SuyeongYoo) 님의 [Standard Spring Boot Structure](https://github.com/SuyeongYoo/fw.boot) 와 연동 테스트 할 수 있도록 구현하였습니다.
 
 # ※ ver 0.1 로컬 환경 구성 기준
