@@ -48,4 +48,4 @@ $ npm run serve
 ## ● Etc
 1. 해당 repo의 sample 코드는 [유수영](https://github.com/SuyeongYoo) 님의 [Standard Spring Boot Structure](https://github.com/SuyeongYoo/fw.boot) 와 연동 테스트 할 수 있도록 구현하였습니다.
 
-# ※ ver 0.1 로컬 환경 구성 기준
+# ※ ver 0.1 로컬 환경 구성 기준 
